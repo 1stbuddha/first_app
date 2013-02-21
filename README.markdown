@@ -1,32 +1,32 @@
-== Welcome to Rails
+== Добро пожаловать в Rails
 
-Rails is a web-application framework that includes everything needed to create
-database-backed web applications according to the Model-View-Control pattern.
+Rails представляет собой веб-приложение рамки, которая включает все необходимое для создания
+баз данных и веб-приложений в соответствии с Model-View-Control шаблону.
 
-This pattern splits the view (also called the presentation) into "dumb"
-templates that are primarily responsible for inserting pre-built data in between
-HTML tags. The model contains the "smart" domain objects (such as Account,
-Product, Person, Post) that holds all the business logic and knows how to
-persist themselves to a database. The controller handles the incoming requests
-(such as Save New Account, Update Product, Show Post) by manipulating the model
-and directing data to the view.
+Эта модель разделяет мнение (также называется презентацией) в "немой"
+шаблонов, которые несут основную ответственность для вставки готовых данных между
+HTML-теги. Модель содержит "умные" объекты предметной области (например, счета,
+Продукт, Person, Post), который содержит всю бизнес-логику и знает, как
+сохраняются себя в базе данных.Контроллер обрабатывает входящие запросы
+(такие, как сохранить новую учетную запись, обновление продукта, шоу Post), управляя моделью
+и направляет данные в представлении.
 
-In Rails, the model is handled by what's called an object-relational mapping
-layer entitled Active Record. This layer allows you to present the data from
-database rows as objects and embellish these data objects with business logic
-methods. You can read more about Active Record in
-link:files/vendor/rails/activerecord/README.html.
+В Rails, модель обрабатывается то, что называется объектно-реляционные отображения
+слоем право Active Record. Этот слой позволяет представлять данные из
+База данных строк, объекты и украсить этими объектами данных с бизнес-логикой
+методы. Вы можете прочитать больше о Active Record в
+Ссылка: файлы / поставщика / рельсы / ActiveRecord / README.html.
 
-The controller and view are handled by the Action Pack, which handles both
-layers by its two parts: Action View and Action Controller. These two layers
-are bundled in a single package due to their heavy interdependence. This is
-unlike the relationship between the Active Record and Action Pack that is much
-more separate. Each of these packages can be used independently outside of
-Rails. You can read more about Action Pack in
-link:files/vendor/rails/actionpack/README.html.
+Контроллера и представления обрабатываются Action Pack, который обрабатывает как
+слоях его на две части: View действий и действий контроллера. Эти два слоя
+поставляются в одном пакете в связи с их тяжелым взаимозависимости. это
+в отличие от отношений между Active Record и Action Pack, который намного
+несколько отдельных. Каждый из этих пакетов могут быть использованы независимо пределами
+Rails. Вы можете прочитать больше о Action Pack в
+Ссылка: файлы / поставщика / рельсы / ActionPack / README.html.
 
 
-== Getting Started
+== Приступая к работе
 
 1. At the command prompt, create a new Rails application:
        <tt>rails new myapp</tt> (where <tt>myapp</tt> is the application name)
